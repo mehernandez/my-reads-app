@@ -8,11 +8,28 @@ body, .app {
   background: white;
 }
 
+/* Loading icon overlay */
+
+.overlay-box {
+  /*background-color: #fff;*/
+  /*border: 1px solid #000;*/
+  text-align:center;
+  height: 200px;/*height needs to be set*/
+  width: 550px;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
 /* main page */
 
 .list-books-title {
   padding: 10px 0;
-  background: #2e7c31;
+  background: #1695A3;
   text-align: center;
 }
 .list-books-title h1 {
@@ -38,6 +55,7 @@ body, .app {
 
 .bookshelf-title {
   border-bottom: 1px solid #dedede;
+  color: gray;
 }
 .bookshelf-books {
   text-align: center;
@@ -53,7 +71,7 @@ body, .app {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #2e7d32;
+  background: #EB7F00;
   background-image: url('./icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -147,7 +165,7 @@ body, .app {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #60ac5d;
+  background: #04BFBF;
   background-image: url('./icons/arrow-drop-down.svg');
   background-repeat: no-repeat;
   background-position: center;

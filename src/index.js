@@ -1,6 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+// Use of BrowserRouter to get url binding capabilities
+
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root'))
