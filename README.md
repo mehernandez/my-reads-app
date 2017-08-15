@@ -10,7 +10,7 @@ Enjoy !
 
 ## Get started
 
-To deploy My Reads App on the browser you just need to
+To deploy My Reads App on the browser you just need to:
 
 * Have Nodejs installed
 * From terminal go to the root folder of this project
